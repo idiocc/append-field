@@ -29,4 +29,19 @@ export default class Context {
   async _destroy() {
     LOG('destroy context')
   }
+  /**
+   * Fixes sparse arrays for comparison.
+   */
+  updateStore(store) {
+    Object.values(store).forEach((item) => {
+      if (Array.isArray(item)) {
+        for (let i = 0; i < item.length; i++) {
+          const v = item[i]
+          if (v === undefined) item[i] = null
+        }
+      } else if (typeof item == 'object') {
+        this.updateStore(item)
+      }
+    })
+  }
 }

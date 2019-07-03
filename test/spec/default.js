@@ -1,4 +1,4 @@
-import { equal, ok } from '@zoroaster/assert'
+import { equal } from '@zoroaster/assert'
 import Context from '../context'
 import appendField from '../../src'
 
@@ -7,16 +7,6 @@ const T = {
   context: Context,
   'is a function'() {
     equal(typeof appendField, 'function')
-  },
-  async 'calls package without error'() {
-    await appendField()
-  },
-  async 'gets a link to the fixture'({ fixture }) {
-    const text = fixture`text.txt`
-    const res = await appendField({
-      text,
-    })
-    ok(res, text)
   },
 }
 
