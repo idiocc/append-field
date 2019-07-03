@@ -4,8 +4,10 @@
 
 ## Copyright
 
-(c) [Idio][1] 2019
+Original Work by [Linus Unnebäck](https://github.com/LinusU/node-append-field).
 
-[1]: https://idio.cc
+---
+
+<idio-footer />
 
 %~ -1%

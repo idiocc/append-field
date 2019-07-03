@@ -2,13 +2,14 @@
   "name": "@goa/append-field",
   "version": "0.0.0-pre",
   "description": "[fork] W3C HTML JSON form compliant field appender Written In ES6 And Optimised With JavaScript Compiler.",
-  "main": "build/index.js",
+  "main": "depack/index.js",
   "module": "src/index.js",
   "scripts": {
     "t": "zoroaster -a",
     "test": "yarn t test/spec test/mask",
     "spec": "yarn t test/spec",
     "mask": "yarn t test/mask",
+    "depack": "depack-dev src/depack -o depack -a -p -S -l",
     "test-build": "ALAMODE_ENV=test-build yarn test",
     "lint": "eslint .",
     "doc": "NODE_DEBUG=doc doc -o README.md",
@@ -20,7 +21,7 @@
     "e": "alanode"
   },
   "files": [
-    "build",
+    "depack",
     "src",
     "types/externs.js"
   ],
