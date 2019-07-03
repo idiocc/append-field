@@ -45,7 +45,7 @@ appendField(obj, 'pets[1][name]', 'Billie')
 
 console.log(obj)
 ```
-```
+```js
 { pets: 
    [ { species: 'Dahut', name: 'Hypatia' },
      { species: 'Felis Stultus', name: 'Billie' } ] }

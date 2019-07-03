@@ -19,6 +19,6 @@ import appendField from '@goa/append-field'
 Adds the field named `key` with the value `value` to the object store.
 
 %EXAMPLE: example, ../src => @goa/append-field%
-%FORK example%
+%FORK-js example%
 
 %~%

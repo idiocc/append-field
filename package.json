@@ -22,16 +22,17 @@
   },
   "files": [
     "depack",
-    "src",
-    "types/externs.js"
+    "src"
   ],
-  "externs": "types/externs.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/idiocc/append-field.git"
   },
   "keywords": [
     "append-field",
+    "multipart",
+    "form-data",
+    "x-www-form-urlencoded",
     "goa"
   ],
   "author": "Anton <anton@adc.sh>",
