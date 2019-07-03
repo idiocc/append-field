@@ -10,14 +10,13 @@ import appendField from '@goa/append-field'
 
 ```## appendField
 [
-  ["arg1", "string"],
-  ["arg2?", "boolean"]
+  ["store", "Object"],
+  ["key", "string"],
+  ["value", "string"]
 ]
 ```
 
-Call this function to get the result you want.
-
-%TYPEDEF types/index.xml%
+Adds the field named `key` with the value `value` to the object store.
 
 %EXAMPLE: example, ../src => @goa/append-field%
 %FORK example%
