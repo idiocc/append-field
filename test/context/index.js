@@ -2,7 +2,7 @@ import { join } from 'path'
 import { debuglog } from 'util'
 import { updateStore } from '@multipart/test-form-data'
 
-const LOG = debuglog('@goa/append-field')
+const LOG = debuglog('@multipart/append-field')
 
 /**
  * A testing context for the package.

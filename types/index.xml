@@ -1,5 +1,5 @@
-<types namespace="_@goa/append-field">
-  <type name="Config" desc="Options for the program.">
+<types namespace="_multipart">
+  <type name="AppendField" desc="Options for the program.">
     <prop boolean name="shouldRun" default="true">
       A boolean option.
     </prop>

@@ -3,7 +3,7 @@
 The package is available by importing its default function:
 
 ```js
-import appendField from '@goa/append-field'
+import appendField from '@multipart/append-field'
 ```
 
 %~%
@@ -18,7 +18,7 @@ import appendField from '@goa/append-field'
 
 Adds the field named `key` with the value `value` to the object store.
 
-%EXAMPLE: example, ../src => @goa/append-field%
+%EXAMPLE: example, ../src => @multipart/append-field%
 %FORK-js example%
 
 %~%

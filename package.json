@@ -1,5 +1,5 @@
 {
-  "name": "@goa/append-field",
+  "name": "@multipart/append-field",
   "version": "1.0.0",
   "description": "[fork] W3C HTML JSON form compliant field appender Written In ES6 And Optimised With JavaScript Compiler.",
   "main": "depack/index.js",
