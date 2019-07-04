@@ -2,7 +2,7 @@ import makeTestSuite from '@zoroaster/mask'
 import Context from '../context'
 import appendField from '../../src'
 
-export default makeTestSuite('test/result', {
+export default makeTestSuite('node_modules/@multipart/test-form-data/default.md', {
   getResults({ updateStore }) {
     const store = {}
 

@@ -42,6 +42,7 @@
   },
   "homepage": "https://github.com/idiocc/append-field#readme",
   "devDependencies": {
+    "@multipart/test-form-data": "^1.0.0",
     "alamode": "^2.3.4",
     "documentary": "^1.27.4",
     "eslint-config-artdeco": "1.0.1",
